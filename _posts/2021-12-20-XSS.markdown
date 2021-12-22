@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "XSS"
+date:   2021-12-20 23:55:11 -0800
+permalink: /portswigger/xss
+---
+This is a test page for testing 
+
+
+# Code Snippet  
+{% highlight python %}
+def hello_there(name)
+  print(f"General {name}")
+end
+print_hi('Konobi')
+#prints 'General Konobi' to STDOUT.
+{% endhighlight %}
